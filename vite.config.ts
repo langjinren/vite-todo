@@ -4,7 +4,7 @@ const config: BuildConfig = {
   base: '',
   assetsDir: 'static',
   // entry: '',
-  // outDir: '',
+  outDir: './docs',
   // assetsInlineLimit: {},
   // cssCodeSplit: {}
 }
