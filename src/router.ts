@@ -1,11 +1,11 @@
-import { createRouter, createWebHistory, RouteLocationRaw } from 'vue-router'
+import { createRouter, createWebHashHistory, RouteLocationRaw } from 'vue-router'
 
 export const enum RN {
   TODO = 'todo',
   DONE = 'done'
 }
 
-export const history = createWebHistory(process.env.BASE_URL)
+export const history = createWebHashHistory()
 export const router = createRouter({
   history,
   routes: [
